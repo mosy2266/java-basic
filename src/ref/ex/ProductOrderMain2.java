@@ -8,6 +8,7 @@ public class ProductOrderMain2 {
         productOrders[2] = createOrder("콜라", 1500, 2);
 
         printOrders(productOrders);
+        //int totalAmount = getTotalAmount(productOrders); -> ctrl+alt+v = 변수 자동 생성(여기선 int totalAmount)
         System.out.println("총 결제 금액 : "+getTotalAmount(productOrders));
     }
 
